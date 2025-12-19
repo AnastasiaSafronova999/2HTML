@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="page1style.css">
+  <title>Учебный сайт</title>
+</head>
+<body>
+<h1>Анкета для друзей</h1>
+<form action="/handler.php" method="post">
+  <label for="user-name">Как Вас зовут?</label>
+  <input type="text" id="user-name"><br>
+  <p></p>
+  <textarea id="clue" placeholder="Как прошёл Ваш день?"></textarea><br>
+  <p>Что Вам нравится есть на завтрак?</p>
+  <label><input type="checkbox" name="option1" value="a1">Бутерброды</label><br>
+  <label><input type="checkbox" name="option1" value="a2">Кашу</label><br>
+  <label><input type="checkbox" name="option1" value="a3">Яйца</label><br>
+  <p>Какая ты амфибия в эту среду?</p><br>
+  <label><input type="radio" name="option2" value="b1">Украшенная рогатка</label><br>
+  <label><input type="radio" name="option2" value="b2">Украшенная бычья лягушка</label><br>
+  <label><input type="radio" name="option2" value="b3">Гладкая шпорцевая лягушка</label><br>
+  <label><input type="radio" name="option2" value="b4">Кораллопаллая литория</label><br>
+  <label><input type="radio" name="option2" value="b5">Голубой древолаз</label><br>
+  <label><input type="radio" name="option2" value="b6">Роющая лягушка</label><br>
+  <label><input type="radio" name="option2" value="b7">Южноафриканский узкорот</label><br>
+  <label><input type="radio" name="option2" value="b8">Американская жаба</label><br>
+  <label><input type="radio" name="option2" value="b9">Злая щитоспинка</label><br>
+  <label><input type="radio" name="option2" value="b10">Лягушка‑помидор</label><br>
+  <a href="page2.html">Посмотреть изображение амфибий вы можете здесь</a>
+  <p></p><br>
+  <label>Какие у Вас есть домашние животные?<br>
+    <p></p>
+    <select multiple name="pet">
+    <option value="Cat">Кошка</option>
+    <option value="Dog">Собака</option>
+    <option value="Parrot">Попугай</option>
+    <option value="Fish">Рыбка</option>
+  </select></label>
+  <p></p><br>
+  <select name="eyes">
+    <option value="" disabled selected>Ваш цвет глаз?</option>
+    <option value="Blue">Голубые</option>
+    <option value="Brown">Карие</option>
+    <option value="Green">Зеленые</option>
+  </select><br>
+  <p></p>
+  <label><button id="button-frog" type="submit"><img src="https://cdn-icons-png.freepik.com/512/3006/3006549.png" alt="frog" height="30" width="30">Отправить</button></label>
+
+</form>
+</body>
+</html>
